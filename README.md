@@ -1,3 +1,2 @@
-#java_pdf_demo
-https://my.oschina.net/lujianing/blog/894365
-博客源码
+# Android自定义未读消息显示 
+![](http://i.imgur.com/XYCr3ZG.png)
