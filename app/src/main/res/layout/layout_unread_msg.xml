@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.goat.unread_message.TextViewIcon
+            android:id="@+id/text_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="10dp"
+            android:text="&#xe643;"
+            android:textSize="50dp"/>
+
+        <RelativeLayout
+            android:id="@+id/msg_con"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_toRightOf="@id/text_icon"
+            android:visibility="visible">
+
+            <com.goat.unread_message.TextViewIcon
+                android:id="@+id/msg_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#xe69d;"
+                android:textColor="#0000FF"
+                android:textSize="20dp"/>
+
+            <com.goat.unread_message.TextViewIcon
+                android:id="@+id/msg_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="10dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="我的"/>
+
+</LinearLayout>

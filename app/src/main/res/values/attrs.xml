@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--未读消息的自定义风格-->
+    <declare-styleable name="UnreadMsgStyle">
+        <!-- 未读消息最大显示字符长度 -->
+        <attr name="msg_maxLength" format="integer"/>
+        <!--未读消息显示数-->
+        <attr name="msg_number" format="integer"/>
+        <!--未读消息显示颜色-->
+        <attr name="msg_tv_color" format="color"/>
+        <!--未读消息显示背景颜色-->
+        <attr name="msg_bg_color" format="color"/>
+        <!--未读消息显示背景大小-->
+        <attr name="msg_bg_size" format="dimension"/>
+        <!-- 图片颜色-->
+        <attr name="ic_color" format="color"/>
+        <!--图片代码 单位dp-->
+        <attr name="ic_text" format="string"/>
+        <attr name="ic_size" format="dimension"/>
+        <!--文字-->
+        <attr name="text" format="string"/>
+        <!--文字颜色-->
+        <attr name="text_color" format="color"/>
+        <!--文字大小-->
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+</resources>
